@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        style="@style/text"
+        android:id="@+id/monday"
+        android:text="@string/monday"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:layout_marginBottom="-5dp"
+        android:clickable="false"/>
+
+    <Button
+        style="@style/text"
+        android:id="@+id/tuesday"
+        android:text="@string/tuesday"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="-5dp"
+        android:layout_width="fill_parent"
+        />
+
+    <Button
+        style="@style/text"
+        android:id="@+id/wednesday"
+        android:text="@string/wednesday"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:layout_marginBottom="-5dp"
+        android:clickable="false"/>
+
+    <Button
+        style="@style/text"
+        android:id="@+id/thursday"
+        android:text="@string/thursday"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="-5dp"
+        android:layout_gravity="bottom"/>
+
+    <Button
+        style="@style/text"
+        android:id="@+id/friday"
+        android:text="@string/friday"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="-5dp"
+        android:layout_gravity="bottom"/>
+
+    <Button
+        style="@style/text"
+        android:id="@+id/saturday"
+        android:text="@string/saturday"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="-5dp"
+        android:layout_gravity="bottom"/>
+
+    <Button
+        style="@style/text"
+        android:id="@+id/sunday"
+        android:text="@string/sunday"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

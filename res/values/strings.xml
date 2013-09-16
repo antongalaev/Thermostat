@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thermostat</string>
+    <string name="current_temperature">Current Temperature Is</string>
+    <string name="week_overview">Week Program</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="switch_type">Switch To</string>
+    <string name="day_temperature">Set Day Temperature</string>
+    <string name="night_temperature">Set Night Temperature</string>
+    <string name="add">Add 0.1 degree</string>
+    <string name="sub">Subtract 0.1 degree</string>
+    <string name="settings">Settings</string>
+    <string name="set_day">Set Day of Week</string>
+    <string name="set_time">Set Time</string>
+    <string name="set">Set</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="remove_title">Remove Switch</string>
+    <string name="remove_message">Are you sure you want to remove that switch?</string>
+    <string name="new_switch">New Switch</string>
+    <string name="edit">Edit</string>
+    <string name="edit_switch">Edit Switch</string>
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>

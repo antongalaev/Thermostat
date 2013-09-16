@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/temperatureCounter"
+        style="@style/text"
+        android:text="20.0 &#x2103;"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/subButton"
+            android:src="@drawable/minus_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/sub"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <SeekBar
+            android:id="@+id/slider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="5"/>
+
+        <ImageView
+            android:id="@+id/addButton"
+            android:src="@drawable/add_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/add"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

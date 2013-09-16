@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Black"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    
+    <style name="text">
+    	<item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    </style>    
+
+</resources>
